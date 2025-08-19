@@ -1,0 +1,60 @@
+body {
+  background-image: url("/clase 1/images/fondo.png");
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+.barra-principal {
+  display: flex;
+  justify-content: space-between;
+  width: 343px;
+  height: 40px;
+  background-color: white;
+  opacity: 1;
+  border-radius: 3px;
+  position: relative;
+  padding: 3px;
+
+
+}
+
+
+#barra-navegacion {
+margin-top: 8px;
+margin-bottom: 8px;
+margin-left: 8px;
+
+}
+
+
+
+#logo-appoly  {
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem;
+    height: 60px;
+
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+
+
+/* Mobile 
+@media (max-width 900px) {
+}
+
+/* tablet 
+
+@media (max-width 1279px) {
+}
+
+/* Laptop 
+@media (max-width 1280px) {
+}
