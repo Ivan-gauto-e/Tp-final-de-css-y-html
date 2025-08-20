@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
 body {
   background-image: url("/imagenes/fondo.png");
-  margin-top: 30px;
 }
 
 .barra-principal {
@@ -12,6 +13,7 @@ body {
   border-radius: 3px;
   position: relative;
   padding: 3px;
+  margin-top: 30px;
 }
 
 #barra-navegacion {
@@ -35,13 +37,24 @@ margin: 8px;
 
 #DOWNLOAD-button {
   background-color: #5956E9;
-  border-radius: 5px;
+  border-radius: 3px;
   border-style: none;
   color: white;
+  padding: 12px 6px;
 }
 
+.download-app-section {
+  background-color: white;
+  margin-top: 118px;
+}
 
+.title-download-section {
+color: #5956E9;
+height: 71px;
+width: 262px;
+font-size: 25px;
 
+}
 
 /* Mobile 
 @media (max-width 900px) {
