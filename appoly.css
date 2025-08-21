@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+
 
 body {
   background-image: url("/imagenes/fondo.png");
@@ -46,15 +48,37 @@ margin: 8px;
 .download-app-section {
   background-color: white;
   margin-top: 118px;
+  width: 323px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 16px;
+  position: relative;
 }
 
 .title-download-section {
-color: #5956E9;
-height: 71px;
-width: 262px;
-font-size: 25px;
-
+  font-family: Josefin Sans;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37.5px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #5956e9;
+  margin-bottom: 18px;
 }
+
+.description-download-section {
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #6c6c72;
+  margin-bottom: 30px;
+}
+
+
 
 /* Mobile 
 @media (max-width 900px) {
