@@ -6,8 +6,12 @@
   box-sizing: border-box;
 }
 
-#purple-background{
+#first-section {
   background-image: url("/imagenes/fondo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 120px;
 }
 
 .barra-principal {
@@ -18,31 +22,31 @@
   opacity: 1;
   border-radius: 3px;
   position: relative;
-  padding: 3px;
-  margin-top: 30px;
+  padding: 1px;
+  margin: 0px 16px;
 }
 
 #barra-navegacion {
-margin: 8px;
+  margin: 8px;
 }
 
-.logo-appoly  {
-    border-radius: 5px;
-    background-color: white;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 60px;
-    box-shadow: 0px 1px 10px 0px #0000001A;
+.logo-appoly {
+  border-radius: 5px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 60px;
+  box-shadow: 0px 1px 10px 0px #0000001a;
 }
 
-.DOWNLOAD-button {
-  background-color: #5956E9;
+.download-button {
+  background-color: #5956e9;
   border-radius: 3px;
   border-style: none;
   color: white;
@@ -56,7 +60,7 @@ margin: 8px;
   justify-content: center;
   padding: 60px 16px;
   position: relative;
-  margin-top: 118px;
+  margin-top: 98px;
 }
 
 .download-app-section {
@@ -93,8 +97,6 @@ margin: 8px;
   right: 22px;
   border: 10px solid #7572ff;
   position: absolute;
-
-
 }
 
 .download-app-now {
@@ -106,20 +108,49 @@ margin: 8px;
 }
 
 .smartphone img {
-margin-left: 80px;
-margin-top: 40px;
+  margin-left: 80px;
+  margin-top: 40px;
 }
 
-
-/* Mobile 
-@media (max-width 900px) {
+#second-section {
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 60px;
 }
 
-/* tablet 
-
-@media (max-width 1279px) {
+.title-about-our-app-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Josefin Sans;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 37.5px;
+  color: #232233;
+  margin-bottom: 18px;
 }
 
-/* Laptop 
-@media (max-width 1280px) {
+.description-about-our-app-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6c6c72;
+}
+
+/* celular */
+@media (max-width: 600px) {
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+}
+
+/* escritorio */
+
+@media (max-width: 1440) {
 }
